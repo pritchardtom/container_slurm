@@ -16,7 +16,7 @@ Process can be achieved multiple ways.  This method involves using two scripts:
 #SBATCH --nodes=1
 #SBATCH --ntasks=40
 #SBATCH --mem=10G
-#SBATCH --account=scwXXXX
+#SBATCH --account=scwXXXX           # add your projectID here
 
 module purge
 module load slurm
